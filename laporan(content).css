@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -61,4 +62,10 @@ main {
 
 .nav-bottom i {
     font-size: 2.8rem;
+}
+
+@media screen and (max-width:360px) {
+    html {
+        font-size: 61%;
+    }
 }
