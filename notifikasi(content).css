@@ -21,7 +21,7 @@
             min-height: 100vh;
         }
         .nav a{
-           font-size: 1.6rem;
+           font-size: 2rem;
         }
 
          /* Nav bottom */
@@ -37,11 +37,11 @@
 
         }
 
-        /* .nav-bottom li a {
-            font-size: 1.2rem;
+        .nav-bottom li a {
+            font-size: 1.4rem;
         }
 
         .nav-bottom i {
-            font-size: 2.4rem;
-        } */
+            font-size: 2.8rem;
+        }
         
