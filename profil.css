@@ -68,9 +68,14 @@
    }
 
    .nav-bottom li a {
-       font-size: 1.2rem;
+       font-size: 1.4rem;
    }
 
    .nav-bottom i {
-       font-size: 2.4rem;
+       font-size: 2.6rem;
    }
+   @media screen and (max-width:360px) {
+    html {
+        font-size: 61%;
+    }
+}
