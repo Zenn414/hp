@@ -21,10 +21,13 @@ body {
     min-height: 100vh;
 }
 
-.card {
+.wrapper-card .card {
     border-radius: 1.2rem;
+    width: 18rem !important;
 }
-
+.card-title{
+    font-size: 6rem !important;
+}
 /* Header */
 button {
     font-size: 1.6rem !important;
@@ -118,4 +121,12 @@ button {
 
 .nav-bottom i {
     font-size: 2.4rem;
+}
+@media screen and (max-width:412px){
+    .wrapper-card .card{
+        width: 16rem !important;
+    }
+    .wrapper-card .card-text{
+        font-size: 1.2rem !important ;
+    }
 }
