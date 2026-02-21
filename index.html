@@ -27,21 +27,69 @@
             </div>
             <button class="btn btn-primary py-2 px-4 " onclick="window.location.href='daftar.html'">Daftar</button>
         </div>
-        <section class="p-5" id="homepage">
-            <h3 class="fw-bold sapa">Halo🙌 <span>Ammar</span> Selamat Datang!</h3>
-            <div class="headline mb-4">
-                <h1 class="fw-bold mb-3 text-primary display-3">Layanan Laporan Masyarakat</h1>
-                <h3 class="display-5 text-primary">Yuk ikut berpartisipasi dalam menjaga lingkungan sekitar</h3>
+        <section class="p-5 hero d-flex justify-content-center align-items-center" id="homepage">
+            <div class="headline m-0 text-md-center">
+                <h3 class="fw-bold sapa">Halo🙌 <span>Ammar</span> Selamat Datang!</h3>
+                <div class="headline mb-4">
+                    <h1 class="fw-bold mb-3 text-primary display-3">Layanan Laporan Masyarakat</h1>
+                    <h3 class="display-5 text-primary">Yuk ikut berpartisipasi dalam menjaga lingkungan sekitar</h3>
+                </div>
+                <button class="btn btn-primary py-3 px-4" onclick="wiindow.location.href='buat-laporan.html'">Lapor
+                    Sekarang</button>
             </div>
-            <button class="btn btn-primary py-3 px-4" onclick="wiindow.location.href='buat-laporan.html'">Lapor
-                Sekarang</button>
         </section>
 
         <section class="py-3 mb-3">
-            <h1 class="fw-bold mb-4 px-4">Kategori</h1>
+            <h1 class="fw-bold mb-4 mb-md-5 px-4 text-md-center">Kategori</h1>
+            <div class="container-fluid  card-desktop  justify-content-center">
+                <div class="row gap-4 justify-content-center">
+                    <div class="col-auto">
+                        <div class="card  justify-content-center align-items-center p-3 ">
+                            <i class="bi bi-shield-fill"></i>
+                            <p class="text-center">Keamanan & Ketertiban</p>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="card  justify-content-center align-items-center p-3 ">
+                            <i class="bi bi-tree"></i>
+                            <p class="text-center">Kebersihan & Lingkungan</p>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="card  justify-content-center align-items-center p-3 ">
+                            <i class="bi bi-building-fill"></i>
+                            <p class="text-center">Infrastruktur & Fasilitas Umum</p>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="card  justify-content-center align-items-center p-3 ">
+                            <i class="bi bi-heart-pulse-fill"></i>
+                            <p class="text-center">Kesehatan</p>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="card  justify-content-center align-items-center p-3 ">
+                            <i class="bi bi-book-fill"></i>
+                            <p class="text-center">Pendidikan</p>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="card  justify-content-center align-items-center p-3 ">
+                            <i class="bi bi-bus-front-fill"></i>
+                            <p class="text-center">Transportasi & Lalu Lintas</p>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="card  justify-content-center align-items-center p-3 ">
+                            <i class="bi bi-laptop"></i>
+                            <p class="text-center">Teknologi & Informasi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="swiper py-3">
                 <!-- Additional required wrapper -->
-                <div class="swiper-wrapper  ">
+                <div class="swiper-wrapper">
                     <!-- Slides -->
                     <div class="swiper-slide  ">
                         <div class="card justify-content-center align-items-center p-4 ">
@@ -106,7 +154,7 @@
                 <div class="wrapper-card">
                     <div class="card shadow-sm border-0 p-5 rounded">
                         <div class="card-title text-primary fw-bold display-1  text-center">0</div>
-                        <div class="card-text text-center fw-bold fs-4">Laporan Aktif</div>
+                        <div class="card-text text-center fw-bold fs-4 ">Laporan Aktif</div>
                     </div>
                 </div>
                 <div class="wrapper-card">
@@ -119,15 +167,18 @@
             </div>
         </section>
 
-        <div class="container-fluid  p-4">
-            <h1 class="fw-bold mb-3">Tata Cara Melapor yang Baik dan Benar</h1>
-            <ul class="fs-3 text-secondary lh-lg">
-                <li>Isi data dengan benar dan jujur</li>
-                <li>Cantumkan lokasi secara jelas dan lengkap</li>
-                <li>Jelaskan kejadian secara jelas dan padat</li>
-                <li>Gunakan bahasa yang sopan dan santun</li>
-                <li>Lampirkan bukti pendukung jika tersedia</li>
-            </ul>
+        <div class="section-5 d-flex justify-content-between align-items-center gap-4  p-4">
+            <div class="wrapper-info">
+                <h1 class="fw-bold mb-4">Tata Cara Melapor yang Baik dan Benar</h1>
+                <ul class="fs-3 p-4 list-unstyled alert alert-info text-secondary ">
+                    <li>1. Isi data dengan benar dan jujur</li>
+                    <li>2. Cantumkan lokasi secara jelas dan lengkap</li>
+                    <li>3. Jelaskan kejadian secara jelas dan padat</li>
+                    <li>4. Gunakan bahasa yang sopan dan santun</li>
+                    <li>5. Lampirkan bukti pendukung jika tersedia</li>
+                </ul>
+            </div>
+            <img src="tutorialimg.svg" alt="" width="100">
         </div>
     </div>
 
@@ -166,6 +217,7 @@
             loop: true,
             centeredSlides: true,
 
+            grabCursor: true,
             slidesPerView: "auto",     // tampil 2 card
             spaceBetween: 20,
             slidesPerGroup: 1,
@@ -178,9 +230,10 @@
                     spaceBetween: 20,
                 },
                 // Layar Desktop (lebar) - misalnya di atas 1024px
-                1024: {
-                    slidesPerView: 5, // Tampilkan 5 card sekaligus secara pas
-                    spaceBetween: 50,
+                540: {
+                    slidesPerView: 5,
+                    loop: true, // Tampilkan 5 card sekaligus secara pas
+                    spaceBetween: 60,
                     centeredSlides: true,
                 }
             },
